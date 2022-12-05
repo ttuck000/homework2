@@ -1,6 +1,7 @@
 package homework.domain;
 
 import homework.domain.요리시작됨;
+import homework.domain.요리완료됨;
 import homework.StoreApplication;
 import javax.persistence.*;
 import java.util.List;
@@ -31,6 +32,11 @@ public class 주문관리  {
 
         요리시작됨 요리시작됨 = new 요리시작됨(this);
         요리시작됨.publishAfterCommit();
+
+
+
+        요리완료됨 요리완료됨 = new 요리완료됨(this);
+        요리완료됨.publishAfterCommit();
 
     }
 
