@@ -22,6 +22,9 @@
         data: () => ({
             headers: [
                 { text: "id", value: "id" },
+                { text: "orderid", value: "orderid" },
+                { text: "orderstatus", value: "orderstatus" },
+                { text: "customerid", value: "customerid" },
             ],
             통합주문상태 : [],
         }),

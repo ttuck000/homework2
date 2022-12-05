@@ -14,6 +14,9 @@ public class 통합주문상태 {
         @Id
         //@GeneratedValue(strategy=GenerationType.AUTO)
         private Long id;
+        private String orderid;
+        private String orderstatus;
+        private String customerid;
 
 
 }

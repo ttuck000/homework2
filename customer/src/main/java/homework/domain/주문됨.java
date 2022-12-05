@@ -15,6 +15,7 @@ public class 주문됨 extends AbstractEvent {
     private Integer qty;
     private Date timestamp;
     private String customername;
+    private String orderstatus;
 }
 
 
