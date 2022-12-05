@@ -14,6 +14,7 @@ public class 배송시작됨 extends AbstractEvent {
     private String productid;
     private String qty;
     private String deliverystate;
+    private String deliveryaddress;
 }
 
 
