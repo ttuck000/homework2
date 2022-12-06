@@ -8,8 +8,6 @@ Vue.use(Router);
 import 주문Manager from "./components/listers/주문Cards"
 import 주문Detail from "./components/listers/주문Detail"
 
-import 통합주문상태View from "./components/통합주문상태View"
-import 통합주문상태ViewDetail from "./components/통합주문상태ViewDetail"
 import 메뉴View from "./components/메뉴View"
 import 메뉴ViewDetail from "./components/메뉴ViewDetail"
 import 주문관리Manager from "./components/listers/주문관리Cards"
@@ -21,6 +19,8 @@ import 결제이력Manager from "./components/listers/결제이력Cards"
 import 결제이력Detail from "./components/listers/결제이력Detail"
 
 
+import 통합주문상태View from "./components/통합주문상태View"
+import 통합주문상태ViewDetail from "./components/통합주문상태ViewDetail"
 import 배송관리Manager from "./components/listers/배송관리Cards"
 import 배송관리Detail from "./components/listers/배송관리Detail"
 
@@ -42,16 +42,6 @@ export default new Router({
                 component: 주문Detail
             },
 
-            {
-                path: '/통합주문상태',
-                name: '통합주문상태View',
-                component: 통합주문상태View
-            },
-            {
-                path: '/통합주문상태/:id',
-                name: '통합주문상태ViewDetail',
-                component: 통합주문상태ViewDetail
-            },
             {
                 path: '/메뉴',
                 name: '메뉴View',
@@ -95,6 +85,16 @@ export default new Router({
             },
 
 
+            {
+                path: '/통합주문상태',
+                name: '통합주문상태View',
+                component: 통합주문상태View
+            },
+            {
+                path: '/통합주문상태/:id',
+                name: '통합주문상태ViewDetail',
+                component: 통합주문상태ViewDetail
+            },
             {
                 path: '/배송관리',
                 name: '배송관리Manager',

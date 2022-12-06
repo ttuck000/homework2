@@ -17,6 +17,8 @@ public class 통합주문상태 {
         private String orderid;
         private String orderstatus;
         private String customerid;
+        private Integer qty;
+        private String deliverystatus;
 
 
 }

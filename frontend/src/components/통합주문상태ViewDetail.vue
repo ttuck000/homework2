@@ -15,6 +15,12 @@
             <div>
                 <String label="Customerid" v-model="item.customerid" :editMode="editMode" @change="change" />
             </div>
+            <div>
+                <Number label="Qty" v-model="item.qty" :editMode="editMode" @change="change" />
+            </div>
+            <div>
+                <String label="Deliverystatus" v-model="item.deliverystatus" :editMode="editMode" @change="change" />
+            </div>
         </v-card-text>
     </v-card>
 

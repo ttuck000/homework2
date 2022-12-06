@@ -25,6 +25,8 @@
                 { text: "orderid", value: "orderid" },
                 { text: "orderstatus", value: "orderstatus" },
                 { text: "customerid", value: "customerid" },
+                { text: "qty", value: "qty" },
+                { text: "deliverystatus", value: "deliverystatus" },
             ],
             통합주문상태 : [],
         }),

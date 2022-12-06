@@ -11,7 +11,7 @@ spring:
         - id: app
           uri: http://localhost:8081
           predicates:
-            - Path=/주문/**, /통합주문상태/**, /메뉴/**
+            - Path=/주문/**, /메뉴/**
         - id: store
           uri: http://localhost:8082
           predicates:
@@ -23,7 +23,7 @@ spring:
         - id: customer
           uri: http://localhost:8084
           predicates:
-            - Path=, 
+            - Path=, /통합주문상태/**
         - id: riderapp
           uri: http://localhost:8085
           predicates:
@@ -54,7 +54,7 @@ spring:
         - id: app
           uri: http://app:8080
           predicates:
-            - Path=/주문/**, /통합주문상태/**, /메뉴/**
+            - Path=/주문/**, /메뉴/**
         - id: store
           uri: http://store:8080
           predicates:
@@ -66,7 +66,7 @@ spring:
         - id: customer
           uri: http://customer:8080
           predicates:
-            - Path=, 
+            - Path=, /통합주문상태/**
         - id: riderapp
           uri: http://riderapp:8080
           predicates:

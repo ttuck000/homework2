@@ -51,16 +51,6 @@
 
                     <v-list-item
                         class="px-2"
-                        key="통합주문상태"
-                        to="통합주문상태"
-                        @click="changeUrl()"
-                        color="deep-purple lighten-2"
-                        style="font-weight:700;"
-                    >
-                        통합주문상태
-                    </v-list-item>
-                    <v-list-item
-                        class="px-2"
                         key="메뉴"
                         to="메뉴"
                         @click="changeUrl()"
@@ -106,6 +96,16 @@
 
 
 
+                    <v-list-item
+                        class="px-2"
+                        key="통합주문상태"
+                        to="통합주문상태"
+                        @click="changeUrl()"
+                        color="deep-purple lighten-2"
+                        style="font-weight:700;"
+                    >
+                        통합주문상태
+                    </v-list-item>
 
                     <v-list-item
                         class="px-2"
@@ -177,35 +177,6 @@
                             </v-card-actions>
                         </v-card>
 
-                        <v-card
-                            class="mx-auto"
-                            style="height:300px; width:300px; margin-bottom:20px;"
-                            outlined
-                        >
-                            <v-list-item>
-                                <v-list-item-avatar 
-                                    class="mx-auto"
-                                    size="80"
-                                    style="margin-top:80px;"
-                                ><span class="mdi mdi-apps" style="font-size:60px; color:#9575CD;"></span>
-                                </v-list-item-avatar>
-                            </v-list-item>
-
-                            <v-card-actions>
-                                <v-btn 
-                                    class="mx-auto"
-                                    outlined
-                                    rounded
-                                    key="통합주문상태"
-                                    to="/통합주문상태"
-                                    @click="changeUrl()"
-                                    color="deep-purple lighten-2"
-                                    style="font-weight:500; font-size:20px; padding:15px;"
-                                >
-                                    통합주문상태
-                                </v-btn>
-                            </v-card-actions>
-                        </v-card>
                         <v-card
                             class="mx-auto"
                             style="height:300px; width:300px; margin-bottom:20px;"
@@ -337,6 +308,35 @@
                         </v-card>
 
 
+                        <v-card
+                            class="mx-auto"
+                            style="height:300px; width:300px; margin-bottom:20px;"
+                            outlined
+                        >
+                            <v-list-item>
+                                <v-list-item-avatar 
+                                    class="mx-auto"
+                                    size="80"
+                                    style="margin-top:80px;"
+                                ><span class="mdi mdi-apps" style="font-size:60px; color:#9575CD;"></span>
+                                </v-list-item-avatar>
+                            </v-list-item>
+
+                            <v-card-actions>
+                                <v-btn 
+                                    class="mx-auto"
+                                    outlined
+                                    rounded
+                                    key="통합주문상태"
+                                    to="/통합주문상태"
+                                    @click="changeUrl()"
+                                    color="deep-purple lighten-2"
+                                    style="font-weight:500; font-size:20px; padding:15px;"
+                                >
+                                    통합주문상태
+                                </v-btn>
+                            </v-card-actions>
+                        </v-card>
                         <v-card
                             class="mx-auto"
                             style="height:300px; width:300px; margin-bottom:20px;"
